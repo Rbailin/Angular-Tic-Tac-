@@ -42,6 +42,11 @@ border: red;
 	background-repeat: no-repeat;
 }
 
+img {
+	width: 150px;
+	height: 150px;
+}
+
 @media (max-width: 700px) and (min-width: 300px) {
 	nav {
 		position: fixed;
