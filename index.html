@@ -15,9 +15,11 @@
 		  		<div x-ng-repeat = "row in boxes track by $index">
 		  			<div x-ng-repeat = "box in row track by $index"
 		  		class="box" x-ng-click = "clickhere($parent.$index, $index); winningPlayer()">
-		  			<img src="{{box}}" alt="">
-				</div>
-		 		</div>
+		  			{{box}}
+		  			</div>
+						<img src="{{box}}" alt="">				
+			 		</div>
+			 		</div>
 				<button ng-click="reset()">Reset board</button>
 			</div>
 		</div>
